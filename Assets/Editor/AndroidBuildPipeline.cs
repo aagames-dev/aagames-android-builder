@@ -39,6 +39,9 @@ public class AndroidBuildPipeline : EditorWindow
 
     private void OnGUI()
     {
+        // Keep long labels (e.g. "Auto-Increment Version Code") from being cut off in narrow windows
+        EditorGUIUtility.labelWidth = 220f;
+
         GUILayout.Space(10);
         GUILayout.Label("Android Quick Build Pipeline", EditorStyles.boldLabel);
         EditorGUILayout.HelpBox("Automates version bumping, clean output paths, and safe builds.", MessageType.Info);

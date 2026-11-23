@@ -2,6 +2,10 @@
 
 A lightweight, robust Unity Editor tool that automates repetitive Android build tasks. Stop manually bumping version codes, fighting with output directories, or misconfiguring APK/AAB settings.
 
+<p align="center">
+  <img src="docs/android-builder.png" alt="Android Builder window in the Unity Editor" width="420">
+</p>
+
 ## Features
 * **Safe Version Bumping:** Bumps `bundleVersionCode` **only** upon a successful build (never burns version codes on failed builds or missing scenes).
 * **Flexible Builds:** Quick toggle between Release AAB, Release APK, and Development APK.
